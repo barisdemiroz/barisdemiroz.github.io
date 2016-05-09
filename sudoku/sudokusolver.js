@@ -1,3 +1,5 @@
+"use strict";
+
 var SudokuSolver = function() {
 	var that = this;
 	this.afterRowProject = function() { };
@@ -6,14 +8,22 @@ var SudokuSolver = function() {
 	this.afterSymbolProject = function() { };
 	this.afterIteration = function() { };
 	
-	this.stopFlag = false;
+	this.pauseFlag = false;
 
 	var inputGrid;
-	var r09 = math.range(0,9);
+	var x;
 	var iterNo = 0;
+	
+	var r09 = math.range(0,9);
 
-	this.solve = function(inputGridState) {
+	this.getIterNo = function() {
+		return iterNo;	
+	};
+
+	this.init = function(inputGridState) {
+		iterNo = 0;
 		inputGrid = inputGridState;
+		this.pauseFlag = false;
 
 		x = math.zeros(9,9,9);
 		
@@ -22,12 +32,19 @@ var SudokuSolver = function() {
 			for (var j = 0; j < 9; ++j)
 				x.subset(math.index(i, j, 0), 1);
 				
-		x = concat4(x,x,x,x);
-		
-		step(x);
+		x = concat4(x,x,x,x);		
 	};
 
-	function step(x) {
+	this.solve = function(inputGridState) {
+		this.init(inputGridState);
+		this.step();
+	};
+
+	this.step = function() {
+		privateStep();
+	}
+
+	function privateStep() {
 		var BETA = 1;
 		
 		var pa = projectDivide(x);
@@ -50,10 +67,13 @@ var SudokuSolver = function() {
 		iterNo++;
 		that.afterIteration(iterNo, deltaNorm);
 
-		if (deltaNorm < 1e-7 || that.stopFlag)
+		if (deltaNorm < 1e-7 || that.pauseFlag)
+		{
+			paused = true;
 			return;
+		}
 
-		setTimeout(step, 10, x);
+		setTimeout(privateStep, 10);
 	}
 
 
@@ -69,22 +89,22 @@ var SudokuSolver = function() {
 
 	
 	function projectDivide(x) {
-		x0 = x.subset(math.index(r09, r09, r09, 0) );
+		var x0 = x.subset(math.index(r09, r09, r09, 0) );
 		x0 = fixCells(x0);
 		x0 = projectRow(x0);
 		that.afterRowProject(toGridState(x0));
 		
-		x1 = x.subset(math.index(r09, r09, r09, 1) );
+		var x1 = x.subset(math.index(r09, r09, r09, 1) );
 		x1 = fixCells(x1);
 		x1 = projectCol(x1);
 		that.afterColProject(toGridState(x1));
 		
-		x2 = x.subset(math.index(r09, r09, r09, 2) );
+		var x2 = x.subset(math.index(r09, r09, r09, 2) );
 		x2 = fixCells(x2);
 		x2 = projectBlock(x2);
 		that.afterBlockProject(toGridState(x2));
 		
-		x3 = x.subset(math.index(r09, r09, r09, 3) );
+		var x3 = x.subset(math.index(r09, r09, r09, 3) );
 		x3 = fixCells(x3);
 		x3 = projectSymbol(x3);
 		that.afterSymbolProject(toGridState(x3));

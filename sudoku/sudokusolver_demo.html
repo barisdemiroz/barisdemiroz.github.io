@@ -10,6 +10,7 @@
 		<script src="main.js" type="text/javascript"></script>
 
 		<style>
+		a, a:visited, a:hover, a:active {color: #444477;}
 		table,td {padding:0pt;}
 		.gridcontainer {padding:8pt;}
 		.grid {border-collapse:collapse; background-color:#FFFFFF; border-right: #666699 solid 2px;}
@@ -26,7 +27,7 @@
 		<table id="layoutTable">
 		<tr>
 		<td class="gridcontainer" rowspan="2">
-			<p>Fill the grid below with the puzzle and hit "Go!" button. When diff between projections reach zero, you have the solution.<br/>
+			<p>Fill the grid below with the puzzle and hit "Go!" button. When diff between projections reach zero, all projections are same and it is a solution.<br/>
 			You can also load <a id="easyExample" href="#">easy example</a> <a id="hardExample" href="#">hard example</a></p>
 			<table id="inputTable" class="grid" cellpadding="0" cellspacing="0">
 				<tbody>
@@ -135,12 +136,13 @@
 			<button type="button" id="goButton">Go!</button>
 			<button type="button" id="pauseButton" disabled>Pause</button>
 			<button type="button" id="stepButton">Take 1 step</button>
-			<button type="button" id="resetButton">Reset</button>
+			<button type="button" id="stopButton" disabled>Stop</button>
 			<p>
 				Iteration #<span id="iterNo"></span><br/>
 				Diff between projections: <span id="deltaNorm"></span>
 			</p>
-			<p>More information on the method in my <a href="#">blog post</a></p>
+			<p>More information on the method in my <a href="http://www.anlak.com/2016/05/a-different-kind-of-sudoku-solver.html">blog post</a></p>
+			<p>Source code is <a href="https://github.com/barisdemiroz/sudokusolver">here</a>.</p>
 		</td>
 		<td class="gridcontainer">
 			<div id="rowProjectionContainer">Row projection</div>

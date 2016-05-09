@@ -15,11 +15,72 @@ window.onload = function() {
 	
 
 	$('#easyExample').click(fillEasyExample);
+	$('#hardExample').click(fillHardExample);
 	
 
 	$('#goButton').click(function() {
-		var grid = getInputGrid();
-		solver.solve(grid);
+		if (solver.getIterNo() == 0) {
+			var grid = getInputGrid();
+			solver.init(grid);
+		}
+
+		solver.pauseFlag = false;
+		solver.step();
+
+		$('#goButton').prop('disabled', true);
+		$('#pauseButton').prop('disabled', false);
+		$('#stepButton').prop('disabled', true);
+		$('#stopButton').prop('disabled', false);
+	});
+
+	$('#pauseButton').click(function() {
+		solver.pauseFlag = true;
+
+		$('#goButton').prop('disabled', false);
+		$('#pauseButton').prop('disabled', true);
+		$('#stepButton').prop('disabled', false);
+	});
+
+	$('#stepButton').click(function() {
+		if (solver.getIterNo() == 0) {
+			var grid = getInputGrid();
+			solver.init(grid);
+		}
+		
+		solver.pauseFlag = true;
+		solver.step();
+		
+		$('#goButton').prop('disabled', false);
+		$('#pauseButton').prop('disabled', true);
+		$('#stepButton').prop('disabled', false);
+	});
+
+	$('#stopButton').click(function() {
+		solver.pauseFlag = true;
+		
+		clearUI();
+
+		solver.init([]);
+
+		$('#goButton').prop('disabled', false);
+		$('#pauseButton').prop('disabled', true);
+		$('#stepButton').prop('disabled', false);
+		$('#stopButton').prop('disabled', true);
+	});
+}
+
+function clearUI() {
+	$('#iterNo').text('');
+	$('#deltaNorm').text('');
+	clearGrid($('#rowProjectionTable'));
+	clearGrid($('#colProjectionTable'));
+	clearGrid($('#blockProjectionTable'));
+	clearGrid($('#symbolProjectionTable'));
+}
+
+function clearGrid(grid) {
+	grid.find('input').each(function (index, e) {
+		$(e).val('');
 	});
 }
 
@@ -37,11 +98,27 @@ function fillEasyExample() {
 	fillInputGrid(grid);
 }
 
+function fillHardExample() {
+	var grid = [0,0,0,0,7,2,0,6,0,
+				0,0,6,0,0,0,1,0,0,
+				5,0,0,6,0,0,0,0,0,
+				0,3,0,0,9,0,0,0,8,
+				2,0,5,0,3,0,6,0,1,
+				6,0,0,0,5,0,0,7,0,
+				0,0,0,0,0,8,0,0,4,
+				0,0,9,0,0,0,3,0,0,
+				0,8,0,9,6,0,0,0,0];
+	
+	fillInputGrid(grid);
+}
+
+
 function fillInputGrid(grid) {
 	$('#inputTable').find('input').each(function(index, e) {
 		if (grid[index] === 0)
-			return;
-		$(e).val(grid[index]);
+			$(e).val('');
+		else
+			$(e).val(grid[index]);
 	});
 }
 
