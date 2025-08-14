@@ -1,10 +1,12 @@
 {
-    "lorem": {
-        "title": "ipsum dolor",
-        "text": "sit amet fofeynk faraday"
-    },
-    "masal": {
-        "title": "ustalar hk.",
-        "text": "yag satarim bal satarim ustam olmus ben satarim"
+    "feyiz" : {
+        "lorem": {
+            "title": "ipsum dolor",
+            "text": "sit amet fofeynk faraday"
+        },
+        "masal": {
+            "title": "ustalar hk.",
+            "text": "yag satarim bal satarim ustam olmus ben satarim"
+        }
     }
 }
