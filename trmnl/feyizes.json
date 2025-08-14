@@ -1,12 +1,32 @@
 {
     "feyiz" : {
-        "lorem": {
-            "title": "ipsum dolor",
-            "text": "sit amet fofeynk faraday"
+        "Challenge Yourself": {
+            "title": "Become Known",
+            "text": "Become known for a particular expertise. Focus on a niche and then gain all necessary qualifications or professional designations that can confirm your expertise. The depth of your specialty will increase your perceived value within the organization."
         },
-        "masal": {
-            "title": "ustalar hk.",
-            "text": "yag satarim bal satarim ustam olmus ben satarim"
+        "Getting Clear": {
+            "title": "Be Crystal Clear",
+            "text": "Define your area of responsibility clearly. You will always function best when the boundaries of your role and the roles of others are crystal clear. If necessary, write down these boundaries and make them explicit for you and your colleagues. You'll like this certainty, and whether they realize it or not, those around you will benefit from it."
+        },
+        "Black & White": {
+            "title": "Build Credibility",
+            "text": "The importance of building credibility is obvious to you, but holding onto that trust requires constant attention. Even one small failure can set you back in your relationships.  Maintain goodwill by making every effort to always deliver on your promises.  Do what you say you're going to do, and do it well."
+        },
+        "Equalizer Essentials": {
+            "title": "Keep Being You",
+            "text": "Your sense of responsibility makes you a rock star of reliability. We can count on you to get it done, and done right. Never underestimate the power of this strength. Your continued attention to solid follow-through will keep your reputation clean and invite greater and greater opportunity."
+        },
+        "Getting Back in Balance": {
+            "title": "Maintain Your Own Standards",
+            "text": "You may notice others cutting corners or bending the truth to be competitive or avoid blame. Don't do it! When you cheat or bend the rules, you feel it keenly and it doesn't work for you. Save yourself the trouble. Doing what is right by your own standards is the path of strength for you."
+        },
+        "Influencing": {
+            "title": "Use Your Precision",
+            "text": "Remember: when you are trying to persuade someone, your particular strength is your ability to explain precisely why your product/solution is unique. You will be persuasive precisely because you draw such clear and vivid distinctions."
+        },
+        "x": {
+            "title": "",
+            "text": ""
         }
     }
 }
