@@ -1,20 +1,40 @@
 {
     "feyiz" : {
-        "Challenge Yourself": {
-            "title": "Become Known",
-            "text": "Become known for a particular expertise. Focus on a niche and then gain all necessary qualifications or professional designations that can confirm your expertise. The depth of your specialty will increase your perceived value within the organization."
+        "Being Authentic": {
+            "title": "Be Honest with Your Answers",
+            "text": "Be honest when you don't know the answer or cannot solve a problem right away. Others love your confidence, but theirs will quickly disappear if they sense that you're making things up."
         },
-        "Getting Clear": {
-            "title": "Be Crystal Clear",
-            "text": "Define your area of responsibility clearly. You will always function best when the boundaries of your role and the roles of others are crystal clear. If necessary, write down these boundaries and make them explicit for you and your colleagues. You'll like this certainty, and whether they realize it or not, those around you will benefit from it."
+        "Being the Expert": {
+            "title": "Be a Student of Your Industry",
+            "text": "Be a student of your industry. Not so that you can lecture your colleagues, but rather so that you can discover knowledge sources -- blogs, aggregation sites, little-known experts -- that will give you a knowledge advantage in presentations and conversations."
+        },
+        "Being the Expert II": {
+            "title": "Get a New Credential",
+            "text": "If you could have any set of letters behind your name, any credential, any official title that would totally jazz you -- what would it be? Write out in detail how you feel this new expertise could serve your company and help you excel at your job. Share your thoughts with your team leader and ask for support in making it happen."
         },
         "Black & White": {
             "title": "Build Credibility",
             "text": "The importance of building credibility is obvious to you, but holding onto that trust requires constant attention. Even one small failure can set you back in your relationships.  Maintain goodwill by making every effort to always deliver on your promises.  Do what you say you're going to do, and do it well."
         },
+        "Building Trust": {
+            "title": "Be a Mediator",
+            "text": "Develop your skills as a mediator. You have a natural talent in this area, but to become an expert at it will take time, practice, and, more than likely, education. There are professional mediation qualifications you can acquire, skills that will help you know how to move others off the rock of their opinion and find a place of common ground. Armed with these skills, you will find yourself better able to navigate through even the most "dug-in" problems."
+        },
+        "Challenge Yourself": {
+            "title": "Become Known",
+            "text": "Become known for a particular expertise. Focus on a niche and then gain all necessary qualifications or professional designations that can confirm your expertise. The depth of your specialty will increase your perceived value within the organization."
+        },
+        "Challenge Yourself II": {
+            "title": "Use Your Negotiation Skills",
+            "text": "Develop your natural skill as a negotiator. Gather all the relevant pricing information and then use this information to get the best prices possible for your resources, whether people or product, internal or external."
+        },
         "Equalizer Essentials": {
             "title": "Keep Being You",
             "text": "Your sense of responsibility makes you a rock star of reliability. We can count on you to get it done, and done right. Never underestimate the power of this strength. Your continued attention to solid follow-through will keep your reputation clean and invite greater and greater opportunity."
+        },
+        "Getting Clear": {
+            "title": "Be Crystal Clear",
+            "text": "Define your area of responsibility clearly. You will always function best when the boundaries of your role and the roles of others are crystal clear. If necessary, write down these boundaries and make them explicit for you and your colleagues. You'll like this certainty, and whether they realize it or not, those around you will benefit from it."
         },
         "Getting Back in Balance": {
             "title": "Maintain Your Own Standards",
@@ -24,9 +44,33 @@
             "title": "Use Your Precision",
             "text": "Remember: when you are trying to persuade someone, your particular strength is your ability to explain precisely why your product/solution is unique. You will be persuasive precisely because you draw such clear and vivid distinctions."
         },
-        "x": {
-            "title": "",
-            "text": ""
+        "Influencing II": {
+            "title": "Showcase the Options",
+            "text": "Come armed to all meetings with more than one approach to the challenge your internal/external client is facing. You are at your most persuasive when you are showing them how you weigh one choice against the other. They won't always agree with you, but watching you think things through will help them think things through."
+        },
+        "Influencing III": {
+            "title": "Leave Room",
+            "text": "When you know you know, and you are going to shout it loud, just remember that confidence is different from closed-mindedness. Once upon a time, the best minds in the world knew that the world was flat, and they were wrong. Leave a little room to hear what others have to say, and you may just find the missing piece you needed to truly have the best answer."
+        },
+        "Influencing IV": {
+            "title": "Increase the Stakes",
+            "text": "You are at your best when you can see the people who receive the benefit of your strength as an Advisor. So, as your career progresses, seek out more demanding audiences. "More demanding" might mean "wider" -- can you publish your insights in blogs, articles, or even books? It might mean a more discriminating audience -- a group of your peers, perhaps, or your most valuable customers. It might mean a higher-profile audience -- the "C" suite, or the highest levels of government. Or it might mean a higher-stakes audience -- the launching of a business, children at risk, or national security."
+        }
+        "Solving Problems": {
+            "title": "Watch out for Scope Creep",
+            "text": "Because you enjoy solving problems, you will often be challenged with "scope creep" -- you'll volunteer to solve more problems than you can handle. To avoid this, keep your eyes focused on the outcome, and do your best to steer clear of any problem that doesn't advance you toward it.  Failing this, you can always partner up with an Equalizer who can help you define the line beyond which you shouldn't go."
+        },
+        "Solving Problems II": {
+            "title": "Apply Your Sense of Direction",
+            "text": "You will always be at your best when the route ahead is unclear and someone needs to come in, assess all the facts available, and make a decision. Start-ups fit this description nicely. Think of your projects as a series of start-ups that require your particular gift for pragmatic decision-making."
+        },
+        "Supporting Your People": {
+            "title": "Avoid Solving Problems Uninvited",
+            "text": "Your coworker tells you a story. Inside that story is a problem. Immediately, your mind goes to work solving it: you begin asking questions, digging deeper and deeper into what is really going on so you can come up with the answer and save the day.... But were you actually being asked to solve the problem? Are you sure that is why this person told you about it? Check in and get permission to ensure the gift of your advice is properly received."
+        },
+        "Take Initiative": {
+            "title": "Give Answers Quickly",
+            "text": "You're incredibly proactive, so show others how you can get them answers quickly. When you sense their frustration with the standard reply, don't wait for them to ask to elevate the issue. Anticipate this request and go right to the top, right away. Make sure people see you do this."
         }
     }
 }
