@@ -1,5 +1,9 @@
 {
     "feyiz": {
+        "Be Adaptable": {
+            "title": "Tweak Your Measurement Tools",
+            "text": "Tweak your measurement tools. Scorecards are important, but only if they're giving you information that drives decisions. Make adjustments on the fly to suit changing realities."
+        },
         "Being Authentic": {
             "title": "Be Honest with Your Answers",
             "text": "Be honest when you don't know the answer or cannot solve a problem right away. Others love your confidence, but theirs will quickly disappear if they sense that you're making things up."
@@ -11,6 +15,14 @@
         "Being the Expert II": {
             "title": "Get a New Credential",
             "text": "If you could have any set of letters behind your name, any credential, any official title that would totally jazz you -- what would it be? Write out in detail how you feel this new expertise could serve your company and help you excel at your job. Share your thoughts with your team leader and ask for support in making it happen."
+        },
+        "Being the Expert III": {
+            "title": "Be a Detangler",
+            "text": "Tell your manager that you love a complex problem to solve. The oppressive, tangled issue that gives others a headache is your idea of a great time, so take it over. Make yourself an even greater value to the team by offering yourself up as the ultimate decoder of messy situations."
+        },
+        "Being the Expert IV": {
+            "title": "Find People to Advise",
+            "text": "An \"Advisor\" always needs people to advise. Analysis is fine, and can be fun, but the day you discover that you have no direct audience for your conclusions -- sitting by yourself, analyzing for the sake of it -- will be a very bad day for you. Make sure you are always being paid to offer your conclusions to someone. You need this \"someone,\" this \"someone with a dilemma,\" to prove to yourself that you are valuable. And smart."
         },
         "Black & White": {
             "title": "Build Credibility",
@@ -27,6 +39,14 @@
         "Challenge Yourself II": {
             "title": "Use Your Negotiation Skills",
             "text": "Develop your natural skill as a negotiator. Gather all the relevant pricing information and then use this information to get the best prices possible for your resources, whether people or product, internal or external."
+        },
+        "Chewy": {
+            "title": "Response Mindset",
+            "text": "It’s not what happens to you, but how you respond that’s matters. "
+        },
+        "Defining Excellence": {
+            "title": "Build Arguments around the Data",
+            "text": "To move others into action, build all arguments around numbers so that nothing is debatable. Take the emotion out of it by presenting the reality of the story using the raw data. For example: \"You are responsible for 400 test cases. We're going live in 4 weeks. As of today, you've completed 3. You have to do 100 a week or we're not going live.\" You don't need to berate or cajole. They can do the math."
         },
         "Equalizer Essentials": {
             "title": "Keep Being You",
@@ -56,6 +76,18 @@
             "title": "Increase the Stakes",
             "text": "You are at your best when you can see the people who receive the benefit of your strength as an Advisor. So, as your career progresses, seek out more demanding audiences. \"More demanding\" might mean \"wider\" -- can you publish your insights in blogs, articles, or even books? It might mean a more discriminating audience -- a group of your peers, perhaps, or your most valuable customers. It might mean a higher-profile audience -- the \"C\" suite, or the highest levels of government. Or it might mean a higher-stakes audience -- the launching of a business, children at risk, or national security."
         },
+        "Jonson": {
+            "title": "\"X is a top contributer to open model community. She:...\"",
+            "text": "What are the 3–5 strongest indicators that she is a leading, highly successful contributor in the open-source community? Once you define those points, whether they are current facts or future goals, you will know which KPIs to emphasize."
+        },
+        "Just the Facts": {
+            "title": "Know When to Change Course",
+            "text": "Acknowledge when it is time to change course on an idea or project. Your commitment to finishing what you started can sometimes blind you to negative realities."
+        },
+        "Setting Expectations": {
+            "title": "Keep Communicating the Way",
+            "text": "When the way is unclear, your people rely on you to provide specificity. Specificity of purpose, steps to take, and what they will find when they get there. This is invaluable to them. Keep communicating the way. All the time."
+        },
         "Solving Problems": {
             "title": "Watch out for Scope Creep",
             "text": "Because you enjoy solving problems, you will often be challenged with \"scope creep\" -- you'll volunteer to solve more problems than you can handle. To avoid this, keep your eyes focused on the outcome, and do your best to steer clear of any problem that doesn't advance you toward it.  Failing this, you can always partner up with an Equalizer who can help you define the line beyond which you shouldn't go."
@@ -63,6 +95,10 @@
         "Solving Problems II": {
             "title": "Apply Your Sense of Direction",
             "text": "You will always be at your best when the route ahead is unclear and someone needs to come in, assess all the facts available, and make a decision. Start-ups fit this description nicely. Think of your projects as a series of start-ups that require your particular gift for pragmatic decision-making."
+        },
+        "Solving Problems III": {
+            "title": "Don't Become a Shoeless Cobbler",
+            "text": "Don't become a shoeless cobbler. If you're not careful, you'll get so drawn to the challenge of solving other people's problems that you will neglect your own and allow them to pile up. You may not notice this happening -- other people's predicaments can be so intriguing -- but gradually the pressure will build, until one day you wake up and realize that you are bent double beneath the weight of your own unresolved issues. At which point, your knee-jerk reaction will be resentment (\"Why do you guys demand so much of my time?\") or self-criticism (\"I'm so stupid. Why do I let people eat up all of my time?\") or both. Try this: to prevent an explosion, set aside an hour each month to target one of your most pressing problems."
         },
         "Supporting Your People": {
             "title": "Avoid Solving Problems Uninvited",
