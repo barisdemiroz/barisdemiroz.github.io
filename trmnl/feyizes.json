@@ -8,6 +8,10 @@
             "title": "Be Honest with Your Answers",
             "text": "Be honest when you don't know the answer or cannot solve a problem right away. Others love your confidence, but theirs will quickly disappear if they sense that you're making things up."
         },
+        "Being Authentic II": {
+            "title": "Be Willing to say, \"I Don't Know\"",
+            "text": "Teach and model to your people that, when it's true, the best answer is \"I don't know, but I'll find out.\" They will appreciate your humility and like that you don't have unreasonable expectations of yourself or any of them. This vulnerability makes it easier for them to connect to you. Also, when you defer to your experts, it creates opportunities for other team members to shine."
+        },
         "Being the Expert": {
             "title": "Be a Student of Your Industry",
             "text": "Be a student of your industry. Not so that you can lecture your colleagues, but rather so that you can discover knowledge sources -- blogs, aggregation sites, little-known experts -- that will give you a knowledge advantage in presentations and conversations."
@@ -23,6 +27,10 @@
         "Being the Expert IV": {
             "title": "Find People to Advise",
             "text": "An \"Advisor\" always needs people to advise. Analysis is fine, and can be fun, but the day you discover that you have no direct audience for your conclusions -- sitting by yourself, analyzing for the sake of it -- will be a very bad day for you. Make sure you are always being paid to offer your conclusions to someone. You need this \"someone,\" this \"someone with a dilemma,\" to prove to yourself that you are valuable. And smart."
+        },
+        "Being the Expert V": {
+            "title": "Seek out Work You Love",
+            "text": "Take a look around your work. What parts of it do you love? What could you dig into, learn about, or explore all day long? What do you know more about than anyone else on the team? These are areas in which you can become the expert, the person your peers seek out for answers. Choose one and start sharing your knowledge as a way to serve the team."
         },
         "Black & White": {
             "title": "Build Credibility",
@@ -40,6 +48,10 @@
             "title": "Use Your Negotiation Skills",
             "text": "Develop your natural skill as a negotiator. Gather all the relevant pricing information and then use this information to get the best prices possible for your resources, whether people or product, internal or external."
         },
+        "Clearing Obstacles": {
+            "title": "Establish Precedents",
+            "text": "Establish your precedents. When has this situation happened before? What were the outcomes? Who were the aggrieved parties? People will always look to you for a fair hearing, and your rationales will be better and clearer if you can point to previous experiences and situations."
+        },
         "Chewy": {
             "title": "Response Mindset",
             "text": "It’s not what happens to you, but how you respond that’s matters. "
@@ -48,17 +60,53 @@
             "title": "Build Arguments around the Data",
             "text": "To move others into action, build all arguments around numbers so that nothing is debatable. Take the emotion out of it by presenting the reality of the story using the raw data. For example: \"You are responsible for 400 test cases. We're going live in 4 weeks. As of today, you've completed 3. You have to do 100 a week or we're not going live.\" You don't need to berate or cajole. They can do the math."
         },
+        "Defining Excellence II": {
+            "title": "Be Clear About Expectations",
+            "text": "Is success clearly defined in your position? Are you clear on what is your responsibility and what isn't? Being clear about what is expected at work is important for anyone's success, but for an Equalizer it's essential if you're going to do your best work."
+        },
+        "Defining Excellence III": {
+            "title": "Get Your Hands Dirty",
+            "text": "Help your people. If there are tight deadlines, help push the team over the finish line. If there are presentations to design, get in there with your team members and build the decks. You are at your best as a leader when you are working right alongside your people."
+        },
         "Equalizer Essentials": {
             "title": "Keep Being You",
             "text": "Your sense of responsibility makes you a rock star of reliability. We can count on you to get it done, and done right. Never underestimate the power of this strength. Your continued attention to solid follow-through will keep your reputation clean and invite greater and greater opportunity."
+        },
+        "Equalizer Essentials II": {
+            "title": "Sweat the Small Stuff",
+            "text": "Sweat the small stuff. You know that the details do matter. Use checklists, tracking, work planning tools -- whatever your system, refine it and review it often with the right people to ensure that you're not missing anything, and that it is still measuring the right metrics."
+        },
+        "Equalizer Essentials III": {
+            "title": "Showcase Your \"Fairness\"",
+            "text": "You have an instinctive sense of \"fairness,\" even on those occasions when your sense of \"fairness\" leads you to conclude that you don't deserve something you've been given. This sort of objectivity, even when it leads to your disadvantage, is rare. There will be opportunities to showcase it. Seek them out."
+        },
+        "Getting Back in Balance": {
+            "title": "Maintain Your Own Standards",
+            "text": "You may notice others cutting corners or bending the truth to be competitive or avoid blame. Don't do it! When you cheat or bend the rules, you feel it keenly and it doesn't work for you. Save yourself the trouble. Doing what is right by your own standards is the path of strength for you."
+        },
+        "Getting Back in Balance II": {
+            "title": "Wipe Away Ambiguity",
+            "text": "When the facts are fuzzy, so are you. Is there some important task that feels ambiguous? Are there gray areas in your work that leave you feeling uncertain? Get clear now. Ask your questions. Seek out the missing pieces. Clarity is your rock, your solid foundation, setting you up for success."
+        },
+        "Getting Back in Balance III": {
+            "title": "Get Your Space In Order",
+            "text": "Feeling a little off center? Your need for order includes your environment. Take a look around your personal space. Are there some piles that need to be filed? Some untidy spaces to be cleared? Why not give yourself 15 minutes just to get yourself in order and see how you feel?"
+        },
+        "Getting Back in Balance IV": {
+            "title": "Keep Your World in Balance",
+            "text": "You thrive when your actions line up with what you know is right. Are you feeling a sense of discomfort about a particular situation or choice because you are in some way working against your own personal compass? Notice it, clean it up, and restore balance to your world."
         },
         "Getting Clear": {
             "title": "Be Crystal Clear",
             "text": "Define your area of responsibility clearly. You will always function best when the boundaries of your role and the roles of others are crystal clear. If necessary, write down these boundaries and make them explicit for you and your colleagues. You'll like this certainty, and whether they realize it or not, those around you will benefit from it."
         },
-        "Getting Back in Balance": {
-            "title": "Maintain Your Own Standards",
-            "text": "You may notice others cutting corners or bending the truth to be competitive or avoid blame. Don't do it! When you cheat or bend the rules, you feel it keenly and it doesn't work for you. Save yourself the trouble. Doing what is right by your own standards is the path of strength for you."
+        "Getting Clear II": {
+            "title": "Create Your Rule Book",
+            "text": "Make a list of the rules of fairness by which you can live. These rules might be based upon certain values that you have, or upon certain policies that you consider \"non-negotiables\" within your organization. Counterintuitively, the clearer you are about these rules, the more comfortable you will be with granting exceptions within these boundaries. If these rules or values are not explicit, your team is left having to infer the \"grid\" you are using to make your judgments. This can make you appear arbitrary in your judgments -- even if you aren't."
+        },
+        "Getting Clear III": {
+            "title": "Be a Compass",
+            "text": "Life moves so quickly that others can get lost. They rely on you to tell them what you are certain of, what they can rely on, what the foundations are. Your discipline can be the catalyst for others' experiments in how to go above and beyond what the client or colleagues expect."
         },
         "Influencing": {
             "title": "Use Your Precision",
@@ -76,6 +124,14 @@
             "title": "Increase the Stakes",
             "text": "You are at your best when you can see the people who receive the benefit of your strength as an Advisor. So, as your career progresses, seek out more demanding audiences. \"More demanding\" might mean \"wider\" -- can you publish your insights in blogs, articles, or even books? It might mean a more discriminating audience -- a group of your peers, perhaps, or your most valuable customers. It might mean a higher-profile audience -- the \"C\" suite, or the highest levels of government. Or it might mean a higher-stakes audience -- the launching of a business, children at risk, or national security."
         },
+        "Influencing V": {
+            "title": "Guide Only Where You're Qualified",
+            "text": "Over time, your people will come to lean on you for input during times of uncertainty. During these times, intentionally offer yourself as a resource within your area of greatest expertise. However, take care not to guide decisions where you aren't qualified. There's nothing worse than an Advisor whose credibility is shot."
+        },
+        "Inspiring Others": {
+            "title": "Become a Credentialed Expert",
+            "text": "Become a credentialed expert yourself. Choose your discipline and then build your career around deepening your expertise in this discipline. Pursue all the professional and academic qualifications available within this discipline. Your long-term career success hinges on your credibility and, like it or not -- and, actually, you do like it -- these sorts of qualifications, publicly displayed, give you an extra boost of credibility."
+        },
         "Jonson": {
             "title": "\"X is a top contributer to open model community. She:...\"",
             "text": "What are the 3–5 strongest indicators that she is a leading, highly successful contributor in the open-source community? Once you define those points, whether they are current facts or future goals, you will know which KPIs to emphasize."
@@ -83,6 +139,10 @@
         "Just the Facts": {
             "title": "Know When to Change Course",
             "text": "Acknowledge when it is time to change course on an idea or project. Your commitment to finishing what you started can sometimes blind you to negative realities."
+        },
+        "Painting the Picture": {
+            "title": "Describe the Details",
+            "text": "You often make leaps of understanding that others can't quite follow. You can't quite explain them either -- the ideas simply jump into your mind. When possible, let people into your thought process so they can more fully see what you're seeing. Take your time describing the details of what you see. Many people need to have a picture fully drawn to be able to get on the page with you."
         },
         "Setting Expectations": {
             "title": "Keep Communicating the Way",
@@ -100,9 +160,21 @@
             "title": "Don't Become a Shoeless Cobbler",
             "text": "Don't become a shoeless cobbler. If you're not careful, you'll get so drawn to the challenge of solving other people's problems that you will neglect your own and allow them to pile up. You may not notice this happening -- other people's predicaments can be so intriguing -- but gradually the pressure will build, until one day you wake up and realize that you are bent double beneath the weight of your own unresolved issues. At which point, your knee-jerk reaction will be resentment (\"Why do you guys demand so much of my time?\") or self-criticism (\"I'm so stupid. Why do I let people eat up all of my time?\") or both. Try this: to prevent an explosion, set aside an hour each month to target one of your most pressing problems."
         },
+        "Solving Problems IV": {
+            "title": "Explain How Things Work",
+            "text": "Seize any chance you get to explain how things work -- with a customer, at a staff meeting, or a company gathering. You are at your most powerful and charismatic when breaking a process or situation down so that other people can see what is really going on."
+        },
         "Supporting Your People": {
             "title": "Avoid Solving Problems Uninvited",
             "text": "Your coworker tells you a story. Inside that story is a problem. Immediately, your mind goes to work solving it: you begin asking questions, digging deeper and deeper into what is really going on so you can come up with the answer and save the day.... But were you actually being asked to solve the problem? Are you sure that is why this person told you about it? Check in and get permission to ensure the gift of your advice is properly received."
+        },
+        "Supporting Your People II": {
+            "title": "Onboard New Team Members",
+            "text": "Your passion for advising makes you an excellent candidate to onboard new team members. Offer to be the answer person or mentor for all of the newbies, and you will serve an important need for the organization while getting to share your expertise."
+        },
+        "Supporting Your People III": {
+            "title": "Give Credit",
+            "text": "Give credit where credit is due. Even though the initial idea was often yours, it's really important that your people hear you acknowledge their contributions."
         },
         "Take Initiative": {
             "title": "Give Answers Quickly",
